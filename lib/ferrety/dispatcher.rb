@@ -34,7 +34,7 @@ module Ferrety
     end
 
     def initialize(json_data)
-      data = JSON.parse(json_data)["instruction"]
+      data = JSON.parse(json_data)
       @id = data["id"]
       @params = data["params"]
       @ferret_type = data["ferret_type"]
