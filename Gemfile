@@ -8,6 +8,7 @@ gem 'resque'
 gem 'rspec'
 gem 'simplecov'
 gem 'activesupport'
+gem 'httparty'
 
 # Specify your gem's dependencies in scheduler.gemspec
 gemspec
